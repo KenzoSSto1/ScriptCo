@@ -62,8 +62,8 @@ gui.Parent = game:GetService("CoreGui")
 -- Notification au chargement
 pcall(function()
     game:GetService("StarterGui"):SetCore("SendNotification", {
-        Title = "Sriblox chargé !",
-        Text = "Appuie sur F6 pour ouvrir la recherche ScriptBlox.",
+        Title = "ScriptCo loaded !",
+        Text = "Press F6 to open ScriptBlox search.",
         Duration = 8
     })
 end)
